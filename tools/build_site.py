@@ -63,6 +63,9 @@ border-radius:8px;padding:1rem 1.2rem;margin:1rem 0}
 gap:9px;background:#229ED9;color:#fff;text-decoration:none;padding:11px 17px;border-radius:999px;
 font-weight:600;box-shadow:0 6px 20px rgba(0,0,0,.18)}
 .tg-float:hover{background:#1c8dc2}.tg-float svg{width:20px;height:20px}
+.ai-note{background:#fff7e6;border-bottom:1px solid #f0e2b8;color:#5a4a1a;font-size:.9rem;
+line-height:1.5;padding:12px 16px;max-width:900px;margin:0 auto}
+.ai-note a{color:#0b3d67}
 footer{max-width:900px;margin:0 auto;padding:1.5rem 1.2rem 3rem;color:var(--muted);font-size:.82rem;border-top:1px solid var(--bordo)}
 .disclaimer{background:#fffbe6;border:1px solid #f0e4a8;border-radius:6px;padding:.7rem .9rem;font-size:.85rem;margin-top:1rem}
 """
@@ -108,6 +111,16 @@ TG = ('<a class="tg-float" href="https://t.me/aeroportolatina" '
       'Unisciti alla chat</a>')
 
 
+DISCLAIMER = (
+    '<div class="ai-note"><strong>⚠ Avviso.</strong> Questo archivio è prodotto da '
+    '<strong>ricerca automatizzata condotta da agenti di Intelligenza Artificiale in ciclo '
+    'continuo, senza revisione umana sistematica</strong>. Le attribuzioni, le date e le '
+    'affermazioni possono contenere errori o imprecisioni. In spirito collaborativo '
+    'archivistico, aiutaci a migliorarlo: segnala errori, correzioni, documenti e contributi '
+    '<a href="https://github.com/fpietrosanti/aeroportodilatina/issues">aprendo una issue su '
+    'GitHub</a> o nella <a href="https://t.me/aeroportolatina">chat di comunità</a>.</div>')
+
+
 def page(title: str, body: str) -> str:
     nav = ('<nav class="top"><a href="index.html">&larr; Comitato</a>'
            '<a href="archivio.html">Ricerca e archivio</a>'
@@ -125,7 +138,7 @@ def page(title: str, body: str) -> str:
 <div class="kicker"><a href="index.html">Comitato per l'Aeroporto di Latina</a></div>
 <h1>Ricerca e Archivio Documentale</h1>
 <p>Le vicende dell'aeroporto "Enrico Comani" e delle proposte di uso civile: fonti, atti e memoria storica.</p></div>
-{nav}</header><main>{body}</main>
+{nav}</header>{DISCLAIMER}<main>{body}</main>
 <footer><div class="disclaimer">Le copie PDF sono conservate a fini di documentazione e
 consultazione storica; i diritti restano dei rispettivi editori. Segnalazioni:
 apri una issue sul <a href="https://github.com/fpietrosanti/aeroportodilatina">repository</a>.</div>
@@ -194,7 +207,11 @@ def build_stakeholder(stake) -> str:
     order = ["FAVOREVOLE", "CONTRARIO", "NEUTRO-CONDIZIONATO", "AMBIVALENTE-MUTEVOLE"]
     label = {"FAVOREVOLE": "🟢 Favorevoli", "CONTRARIO": "🔴 Contrari",
              "NEUTRO-CONDIZIONATO": "🟡 Neutri/condizionati", "AMBIVALENTE-MUTEVOLE": "🟠 Ambivalenti/mutevoli"}
-    out = ["<h1>Mappa degli stakeholder</h1>"]
+    out = ["<h1>Mappa degli stakeholder</h1>",
+           "<p class='meta'>Attenzione: posizioni e attribuzioni di questa mappa sono "
+           "estratte automaticamente da agenti di IA dagli articoli e dagli atti, senza "
+           "revisione umana sistematica; possono contenere errori. Segnala correzioni "
+           "<a href='https://github.com/fpietrosanti/aeroportodilatina/issues'>su GitHub</a>.</p>"]
     for pos in order:
         grp = [s for s in stake["stakeholder"] if s["posizione"] == pos]
         if not grp:
