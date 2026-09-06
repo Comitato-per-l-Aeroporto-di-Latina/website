@@ -165,7 +165,7 @@ Il Lazio dispone oggi di due aeroporti commerciali (Fiumicino e Ciampino) e di u
 | Pista | Unica, asfalto, **1.700 m × 40 m**, orientamento 12/30, quota 28 m; operazioni **VFR** | [Wikipedia](https://it.wikipedia.org/wiki/Aeroporto_di_Latina) [da verificare presso ENAV/AM per dati AIP aggiornati] |
 | Uso militare 2026 | **70° Stormo** — scuola di volo basico ad ala fissa, pienamente operativa; velivoli SF-260EA / simulatori T-260B; ammodernamento in corso dal 2015 | [Aeronautica Militare – 70° Stormo](https://www.aeronautica.difesa.it/organizzazione/reparti/comando-scuole-am-3-regione-aerea/70-stormo/) |
 | Altri usi | Aeroclub, elisoccorso 118, voli di Stato | corpus, EV-INFRA-001 |
-| Accessibilità ferroviaria | Stazione di **Latina** sulla dorsale **Roma-Napoli** (linea storica/AV), servizio regionale e AV; esempio orario ~**39 min** verso Roma Termini | [Trenitalia](https://www.trenitalia.com) / [RFI](https://www.rfi.it) [esempio orario, da completare con frequenze e capacità] |
+| Accessibilità ferroviaria | Stazione di **Latina** sulla dorsale **Roma-Napoli** (linea storica/AV), servizio regionale e AV; esempio orario ~**35 min con Intercity** (Regionale ~39 min) verso Roma Termini | [Trenitalia](https://www.trenitalia.com) / [RFI](https://www.rfi.it) [esempio orario, da completare con frequenze e capacità] |
 | Distanza stazione-aeroporto | Stazione di Latina Scalo a ~**3,1 km** (geodetica) dall'ARP; **NON** «500 m» (vedi § 10) | stima geodetica [da verificare con GIS] |
 | Distanza da Roma | ~70 km da Roma; ~96 km da Fiumicino, ~81 km da Ciampino | corpus, EV-2020-002 |
 | Stato civile | **Nessun uso civile commerciale operativo**; solo ipotesi/pre-fattibilità | corpus, EV-2025-002 |
@@ -220,7 +220,7 @@ Lo stesso PNA 2026 prevede per Fiumicino l'espansione fino a **100 milioni di pa
 | Adeguabilità *airside* Code C | Da dimostrare [dv] | Da dimostrare [dv] | Oggetto di programma ENAC (Regional) [dv per Code C di massa] |
 | Uso militare 2026 | **70° Stormo** attivo (scuola volo basico ala fissa) | **66° Stormo** costituito 18/6/2026 (APR) + presenza 72° | **72° Stormo** insediato 15/1/2026 (elicotteri interforze) |
 | Sedime «liberato»? | No (70° operativo) | No (66° neocostituito) | No (72° in insediamento) |
-| Accessibilità ferroviaria **attuale** | Roma-Napoli, stazione Latina; ~39 min es. | Roma-Cassino, stazione Frosinone; ~73 min es. | FR3/via Orte; ~100 min es. |
+| Accessibilità ferroviaria **attuale** | Roma-Napoli, stazione Latina; ~35 min IC es. | Roma-Cassino, stazione Frosinone; ~73 min es. | FR3/via Orte; ~100 min es. |
 | Accessibilità ferroviaria **futura** | Da progettare collegamento stazione-terminal [dv] | **AV MedioLatium** ~125 M€, PFTE 2026, ~2033 | Interventi FR3 previsti (storici) |
 | Distanza da Roma | ~70 km | ~85-90 km [dv] | ~80 km |
 | Maturità amministrativa | Bassa (ipotesi/pre-fattibilità) | Media (promozione forte, atti da verificare) | **Alta** (PNA 2012 + intese 2008) |
@@ -274,7 +274,7 @@ Questo metodo è neutrale rispetto all'esito: se applicato correttamente, potreb
 Per credibilità, il Comitato corregge esplicitamente alcune affermazioni ricorrenti nel dibattito, comprese quelle a favore di Latina:
 
 - **«La stazione è a 500 m dal Comani».** Affermazione ricorrente ma **imprecisa**. La distanza geodetica tra l'ARP aeroportuale e la stazione di Latina Scalo è di circa **3,1 km** [stima da verificare con rilievo GIS]. I «500 m» storicamente citati potrebbero riferirsi al margine del sedime o a una possibile localizzazione dell'aerostazione. Si chiede una **verifica GIS puntuale terminal-banchina** prima di usare qualunque cifra.
-- **Tempi ferroviari.** Gli esempi «~39 min Latina», «~73 min Frosinone», «~100 min Viterbo Porta Fiorentina» verso Roma Termini sono **esempi osservabili dell'offerta attuale**, non «tempi ferroviari definitivi»: vanno completati con frequenze, affidabilità e capacità.
+- **Tempi ferroviari.** Gli esempi «~35 min Latina (Intercity)», «~73 min Frosinone», «~100 min Viterbo Porta Fiorentina» verso Roma Termini sono **esempi osservabili dell'offerta attuale**, non «tempi ferroviari definitivi»: vanno completati con frequenze, affidabilità e capacità.
 - **Accessibilità esistente vs. progetti futuri.** L'AV Frosinone-MedioLatium è un **vantaggio prospettico reale** ma **futuro** (fine lavori ~2033) e va tenuto distinto dall'accessibilità ferroviaria *esistente oggi*; inoltre resta da progettare il collegamento tra la nuova stazione AV e il sedime aeroportuale.
 - **Premio BUILD e «vaglio ENAC» (Frosinone).** Il premio BUILD è un **riconoscimento privato**, non una validazione aeroportuale pubblica; il «vaglio positivo ENAC» dichiarato da APARF va documentato con protocollo, data, oggetto e portata giuridica.
 - **«Pietra tombale ENAC» su Latina (2025).** Riportata da stampa locale ma **priva, allo stato, di fonte primaria**: non può essere trattata come fatto finché non è acquisito l'atto ENAC (vedi § 11).
