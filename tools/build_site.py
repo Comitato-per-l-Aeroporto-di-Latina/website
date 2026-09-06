@@ -117,7 +117,7 @@ DISCLAIMER = (
     'continuo, senza revisione umana sistematica</strong>. Le attribuzioni, le date e le '
     'affermazioni possono contenere errori o imprecisioni. In spirito collaborativo '
     'archivistico, aiutaci a migliorarlo: segnala errori, correzioni, documenti e contributi '
-    '<a href="https://github.com/Comitato-per-l-Aeroporto-di-Latina/website/issues">aprendo una issue su '
+    '<a href="https://github.com/aeroportolatina/website/issues">aprendo una issue su '
     'GitHub</a> o nella <a href="https://t.me/aeroportolatina">chat di comunità</a>.</div>')
 
 
@@ -141,7 +141,7 @@ def page(title: str, body: str) -> str:
 {nav}</header>{DISCLAIMER}<main>{body}</main>
 <footer><div class="disclaimer">Le copie PDF sono conservate a fini di documentazione e
 consultazione storica; i diritti restano dei rispettivi editori. Segnalazioni:
-apri una issue sul <a href="https://github.com/Comitato-per-l-Aeroporto-di-Latina/website">repository</a>.</div>
+apri una issue sul <a href="https://github.com/aeroportolatina/website">repository</a>.</div>
 <p>Base dati aperta · fonte di verità: <code>data/*.json</code> · pagine generate automaticamente ·
 <a href="index.html">torna al Comitato</a></p></footer>
 {TG}</body></html>"""
@@ -211,7 +211,7 @@ def build_stakeholder(stake) -> str:
            "<p class='meta'>Attenzione: posizioni e attribuzioni di questa mappa sono "
            "estratte automaticamente da agenti di IA dagli articoli e dagli atti, senza "
            "revisione umana sistematica; possono contenere errori. Segnala correzioni "
-           "<a href='https://github.com/Comitato-per-l-Aeroporto-di-Latina/website/issues'>su GitHub</a>.</p>"]
+           "<a href='https://github.com/aeroportolatina/website/issues'>su GitHub</a>.</p>"]
     for pos in order:
         grp = [s for s in stake["stakeholder"] if s["posizione"] == pos]
         if not grp:
