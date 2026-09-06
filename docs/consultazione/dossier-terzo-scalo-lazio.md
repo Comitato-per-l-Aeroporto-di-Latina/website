@@ -30,7 +30,21 @@
 
 **Ente proponente dell'osservazione:** *Comitato per l'Aeroporto di Latina* — aggregazione civica, non partitica e in forma informale, di cittadini, professionisti e portatori di interesse del territorio pontino, che cura l'archivio documentale pubblico [aeroportolatina.it](https://aeroportolatina.it). **Contatti:** [comitato@aeroportolatina.it](mailto:comitato@aeroportolatina.it).
 
-**A chi è rivolta:** Ministero dell'Ambiente e della Sicurezza Energetica (MASE) – Direzione generale Valutazioni ambientali; Commissione Tecnica di Verifica dell'Impatto Ambientale VIA-VAS; ENAC (proponente del Piano); Ministero delle Infrastrutture e dei Trasporti (MIT).
+**Destinatario (deposito dell'osservazione):** **MASE** — Ministero dell'Ambiente e della Sicurezza Energetica, Direzione Generale Valutazioni Ambientali — Commissione Tecnica di Verifica dell'Impatto Ambientale VIA-VAS (procedura VAS n. 8657) — PEC `va@pec.mase.gov.it`.
+
+**Trasmessa per conoscenza a:**
+- **ENAC** — Ente Nazionale per l'Aviazione Civile (proponente del Piano), Protocollo generale;
+- **MIT** — Ministero delle Infrastrutture e dei Trasporti, Direzione generale per gli aeroporti, il trasporto aereo e i servizi satellitari;
+- **ENAV S.p.A.** — Protocollo generale;
+- **Aeronautica Militare** — Stato Maggiore (Ministero della Difesa);
+- **Regione Lazio** — Giunta/Presidenza; Direzione reg. Trasporti, Mobilità e Tutela del territorio; Direzione reg. Lavori Pubblici e Infrastrutture;
+- **Consiglio regionale del Lazio**;
+- **Comune di Latina**; **Provincia di Latina**;
+- **Camera dei Deputati** — IX Commissione (Trasporti); **Senato della Repubblica** — 8ª Commissione (Ambiente, transizione ecologica, energia, lavori pubblici);
+- **Camera di Commercio di Frosinone-Latina**; **Unindustria** (Confindustria);
+- **ART** — Autorità di Regolazione dei Trasporti; **ADR** — Aeroporti di Roma S.p.A.
+
+*(Elenco completo con le rispettive PEC nel rendiconto degli invii pubblicato su [aeroportolatina.it](https://aeroportolatina.it).)*
 
 **Procedura:** Valutazione Ambientale Strategica (VAS) del **Piano Nazionale degli Aeroporti (PNA) 2026-2035**, [procedura n. 8657](https://va.mite.gov.it/it-IT/Oggetti/Info/8875), fase 2 «Consultazione sul Piano e sul Rapporto Ambientale». Proponente: ENAC. Autorità competente: MASE. Consultazione pubblica: dal **4 agosto 2026** al **18 settembre 2026** (avviso pubblico ex art. 14 D.Lgs. 152/2006). Referente istruttorio indicato negli atti: Annamaria Maggiore (va-5@mase.gov.it).
 

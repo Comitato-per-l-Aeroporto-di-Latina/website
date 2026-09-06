@@ -94,6 +94,8 @@ def main():
     if coex:
         parts.append('<div class="pagebreak"></div>' + coex)
     html = (f'<!doctype html><html lang="it"><head><meta charset="utf-8">'
+            f'<title>Il terzo aeroporto del Lazio — Osservazione del Comitato per l\'Aeroporto di Latina</title>'
+            f'<meta name="author" content="Comitato per l\'Aeroporto di Latina">'
             f'<style>{CSS}</style></head><body>{"".join(parts)}</body></html>')
     OUT_HTML.write_text(html, encoding="utf-8")
 
