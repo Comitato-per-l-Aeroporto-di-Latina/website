@@ -35,7 +35,7 @@ Il Comitato invita cittadini, associazioni, imprese, media e istituzioni a contr
 - Sito e archivio: **https://aeroportolatina.it**
 - Chat di comunità (Telegram): **https://t.me/aeroportolatina**
 - Gruppo Facebook: **https://www.facebook.com/groups/2270702649868716**
-- Progetto e documenti su GitHub: **https://github.com/fpietrosanti/aeroportodilatina**
+- Progetto e documenti su GitHub: **https://github.com/Comitato-per-l-Aeroporto-di-Latina/website**
 - Referente stampa: [NOME COGNOME] — [email] — [telefono] *(DA COMPILARE)*
 
 *Il Comitato per l'Aeroporto di Latina è un'iniziativa civica e non partitica. Il documento completo di osservazione alla consultazione VAS è disponibile sul sito.*
