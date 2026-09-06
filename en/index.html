@@ -63,6 +63,10 @@ text-decoration:none;font-size:1.02rem}
 .nav-links{margin-left:auto;display:flex;gap:18px;align-items:center}
 .nav-links a{color:var(--ink);text-decoration:none;font-size:.95rem}
 .nav-links a:hover{color:var(--blu2)}
+.lang-switch{display:inline-flex;border:1.5px solid var(--line);border-radius:999px;overflow:hidden;flex:0 0 auto}
+.lang-switch a{padding:6px 12px;text-decoration:none;color:var(--muted);font-weight:700;font-size:.82rem}
+.lang-switch a.on{background:var(--blu);color:#fff}
+.lang-switch a:not(.on):hover{background:var(--sky);color:var(--blu)}
 .btn{display:inline-flex;align-items:center;gap:8px;background:var(--blu);color:#fff;
 text-decoration:none;padding:10px 16px;border-radius:999px;font-weight:600;font-size:.95rem;border:0;cursor:pointer}
 .btn:hover{background:var(--blu2)}
@@ -144,8 +148,11 @@ h2{font-size:1.4rem}
       <a href="#take-part">Take part</a>
       <a href="#about">About us</a>
       <a href="/archivio.html">Research &amp; archive</a>
-      <a href="/" aria-label="Versione italiana"><b>IT</b></a>
     </nav>
+    <div class="lang-switch" role="group" aria-label="Lingua / Language">
+      <a href="/" hreflang="it">IT</a>
+      <a class="on" href="/en/" aria-current="true">EN</a>
+    </div>
   </div>
 </header>
 
@@ -320,7 +327,7 @@ h2{font-size:1.4rem}
       <span class="eyebrow" style="background:#0e4d80;border-color:#2b6da0;color:#ffe6a8">Mission</span>
       <h2>Building the historical memory of Lazio's third airport</h2>
       <p class="lead">The Committee was formed to build a complete <b>knowledge base</b> of every act, fact, statement, document, parliamentary question, opinion and stakeholder relating to Lazio's third airport, with a focus on Latina.</p>
-      <p class="lead">A public, verifiable and open resource, so that the debate rests on facts and not on hearsay. You'll find it in the <b>Research and Documentary Archive</b> section (top menu).</p>
+      <p class="lead">A public, verifiable and open resource, so that the debate rests on facts and not on hearsay. You'll find it in the <a href="/archivio.html" style="color:#ffe6a8;font-weight:600"><b>Research and Documentary Archive</b></a> section.</p>
     </div>
   </div>
 </section>

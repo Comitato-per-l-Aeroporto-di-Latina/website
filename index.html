@@ -63,6 +63,10 @@ text-decoration:none;font-size:1.02rem}
 .nav-links{margin-left:auto;display:flex;gap:18px;align-items:center}
 .nav-links a{color:var(--ink);text-decoration:none;font-size:.95rem}
 .nav-links a:hover{color:var(--blu2)}
+.lang-switch{display:inline-flex;border:1.5px solid var(--line);border-radius:999px;overflow:hidden;flex:0 0 auto}
+.lang-switch a{padding:6px 12px;text-decoration:none;color:var(--muted);font-weight:700;font-size:.82rem}
+.lang-switch a.on{background:var(--blu);color:#fff}
+.lang-switch a:not(.on):hover{background:var(--sky);color:var(--blu)}
 .btn{display:inline-flex;align-items:center;gap:8px;background:var(--blu);color:#fff;
 text-decoration:none;padding:10px 16px;border-radius:999px;font-weight:600;font-size:.95rem;border:0;cursor:pointer}
 .btn:hover{background:var(--blu2)}
@@ -144,8 +148,11 @@ h2{font-size:1.4rem}
       <a href="#partecipa">Partecipa</a>
       <a href="#chi-siamo">Chi siamo</a>
       <a href="archivio.html">Ricerca e archivio</a>
-      <a href="/en/" aria-label="English version"><b>EN</b></a>
     </nav>
+    <div class="lang-switch" role="group" aria-label="Lingua / Language">
+      <a class="on" href="/" aria-current="true">IT</a>
+      <a href="/en/" hreflang="en">EN</a>
+    </div>
   </div>
 </header>
 
@@ -320,7 +327,7 @@ h2{font-size:1.4rem}
       <span class="eyebrow" style="background:#0e4d80;border-color:#2b6da0;color:#ffe6a8">Missione</span>
       <h2>Costruire la memoria storica del terzo scalo del Lazio</h2>
       <p class="lead">Il Comitato nasce per costruire una <b>base di conoscenza storica</b> completa di tutti gli atti, i fatti, le affermazioni, i documenti, gli interpelli, i pareri e i portatori di interesse relativi al terzo scalo del Lazio, con focus su Latina.</p>
-      <p class="lead">Un patrimonio pubblico, verificabile e aperto, perché il dibattito si fondi sui fatti e non sulle chiacchiere. Lo trovi nella sezione <b>Ricerca e Archivio Documentale</b> (menu in alto).</p>
+      <p class="lead">Un patrimonio pubblico, verificabile e aperto, perché il dibattito si fondi sui fatti e non sulle chiacchiere. Lo trovi nella sezione <a href="archivio.html" style="color:#ffe6a8;font-weight:600"><b>Ricerca e Archivio Documentale</b></a>.</p>
     </div>
   </div>
 </section>
