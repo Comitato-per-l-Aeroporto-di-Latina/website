@@ -45,6 +45,7 @@ text-decoration:none;padding:10px 16px;border-radius:999px;font-weight:600;font-
 .btn.gold{background:var(--gold);color:#3a2b00}
 .btn.gold:hover{background:var(--gold2)}
 .btn.ghost{background:#fff;color:var(--blu);border:1.5px solid var(--blu)}
+.btn.fb{background:#1877F2;color:#fff}.btn.fb:hover{background:#1466d6}
 
 /* hero */
 .hero{background:linear-gradient(180deg,var(--sky),#fff);padding:64px 0 40px;border-top:0}
@@ -82,6 +83,11 @@ gap:9px;background:#229ED9;color:#fff;text-decoration:none;padding:12px 18px;bor
 font-weight:600;box-shadow:0 6px 20px rgba(0,0,0,.18)}
 .tg-float:hover{background:#1c8dc2}
 .tg-float svg{width:20px;height:20px}
+.fb-float{position:fixed;right:16px;bottom:66px;z-index:60;display:inline-flex;align-items:center;
+gap:9px;background:#1877F2;color:#fff;text-decoration:none;padding:12px 18px;border-radius:999px;
+font-weight:600;box-shadow:0 6px 20px rgba(0,0,0,.18)}
+.fb-float:hover{background:#1466d6}
+.fb-float svg{width:20px;height:20px;fill:currentColor}
 
 footer{background:var(--blu);color:#cfe0ee;padding:40px 0}
 footer a{color:#fff}
@@ -124,7 +130,8 @@ h2{font-size:1.4rem}
     <h1>L'Aeroporto di Latina pronto ad aprire ai voli civili.</h1>
     <p class="lead">Un'infrastruttura aeroportuale <b>già esistente</b>, collegata a Roma in <b>35 minuti di treno con l'Intercity</b>, che può diventare il terzo scalo del Lazio — per decongestionare Fiumicino e Ciampino e servire il sud pontino, il basso Lazio e le isole.</p>
     <div class="cta">
-      <a class="btn gold" href="https://t.me/aeroportolatina">Unisciti alla community su Telegram</a>
+      <a class="btn gold" href="https://t.me/aeroportolatina">Community su Telegram</a>
+      <a class="btn fb" href="https://www.facebook.com/groups/aeroportolatina">Gruppo Facebook</a>
       <a class="btn ghost" href="#perche">Perché Latina</a>
     </div>
     <div class="hero-facts">
@@ -203,8 +210,19 @@ h2{font-size:1.4rem}
           <circle cx="435" cy="255" r="10" fill="#f0b429" stroke="#0b3d67" stroke-width="2"/>
           <text x="360" y="285" font-family="var(--font)" font-size="15" font-weight="700" fill="#0b3d67">Latina</text>
           <text x="360" y="301" font-family="var(--font)" font-size="12" fill="#5a6b7a">Comani · ~70 km da Roma</text>
+          <rect x="24" y="30" width="262" height="58" rx="8" fill="#ffffff" stroke="#cdd8e2"/>
+          <text x="38" y="52" font-family="var(--font)" font-size="12" font-weight="700" fill="#1d8a4c">Collegamento bus aeroportuale</text>
+          <text x="38" y="72" font-family="var(--font)" font-size="12" fill="#24303c">&#8594; Ciampino ~1 h  ·  &#8594; Fiumicino ~1 h 30</text>
         </svg>
-        <p class="mapcap">Schema indicativo, non in scala. Distanze stradali approssimative.</p>
+        <p class="mapcap">Schema indicativo, non in scala. Collegamento con gli scali romani via bus/navetta; distanze e tempi stradali approssimativi.</p>
+        <table style="width:100%;border-collapse:collapse;font-size:.85rem;margin-top:10px">
+          <thead><tr><th style="text-align:left;padding:6px 8px;background:#0b3d67;color:#fff">Precedente: sistema di Milano</th><th style="text-align:right;padding:6px 8px;background:#0b3d67;color:#fff">Distanza stradale</th></tr></thead>
+          <tbody>
+            <tr><td style="padding:6px 8px;border-bottom:1px solid #e2e8ee">Bergamo Orio al Serio &#8596; Milano Linate</td><td style="padding:6px 8px;border-bottom:1px solid #e2e8ee;text-align:right">~50 km</td></tr>
+            <tr><td style="padding:6px 8px;border-bottom:1px solid #e2e8ee">Bergamo Orio al Serio &#8596; Milano Malpensa</td><td style="padding:6px 8px;border-bottom:1px solid #e2e8ee;text-align:right">~90 km</td></tr>
+          </tbody>
+        </table>
+        <p class="mapcap">A Milano tre scali distano 50-90 km tra loro e servono la stessa area metropolitana: la distanza di Latina dagli aeroporti romani è del tutto comparabile.</p>
       </div>
       <div class="mapbox">
         <h3 style="margin:0 0 6px;font-size:1.05rem">A 35 minuti da Roma con l'Intercity</h3>
@@ -220,7 +238,8 @@ h2{font-size:1.4rem}
             <rect x="60" y="95" width="60" height="26" rx="6" fill="#fff" stroke="#0b3d67"/>
             <text x="90" y="112" text-anchor="middle" font-family="var(--font)" font-size="12" font-weight="600" fill="#0b3d67">✈ Comani</text>
             <line x1="90" y1="121" x2="90" y2="161" stroke="#9db6c9" stroke-width="1.5" stroke-dasharray="4 3"/>
-            <text x="150" y="140" font-family="var(--font)" font-size="11" fill="#5a6b7a">~3 km (da verificare GIS)</text>
+            <text x="150" y="135" font-family="var(--font)" font-size="11" font-weight="600" fill="#1d8a4c">Navetta ~3 km</text>
+            <text x="150" y="150" font-family="var(--font)" font-size="11" fill="#5a6b7a">aeroporto &#8596; stazione</text>
           </g>
           <circle cx="470" cy="170" r="9" fill="#0b3d67"/>
           <text x="470" y="205" text-anchor="middle" font-family="var(--font)" font-size="13" font-weight="700" fill="#0b3d67">Roma Termini</text>
@@ -274,7 +293,8 @@ h2{font-size:1.4rem}
       <li><b>Contribuisci in modo fattivo</b> — anche con critiche, purché costruttive.</li>
     </ul>
     <div class="cta" style="margin-top:20px">
-      <a class="btn gold" href="https://t.me/aeroportolatina">Entra nella chat di comunità</a>
+      <a class="btn gold" href="https://t.me/aeroportolatina">Chat Telegram</a>
+      <a class="btn fb" href="https://www.facebook.com/groups/aeroportolatina">Gruppo Facebook</a>
       <a class="btn ghost" href="https://github.com/aeroportolatina/website">Contribuisci su GitHub</a>
     </div>
     <p class="mapcap" style="margin-top:16px"><b>Tutti gli artefatti del progetto sono su GitHub</b>, aperti alla contribuzione libera: dati, documenti, codice del sito e archivio delle fonti.</p>
@@ -285,7 +305,7 @@ h2{font-size:1.4rem}
   <div class="wrap">
     <div class="contacts">
       <a href="https://t.me/aeroportolatina"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71l-4.13-3.05-1.98 1.93c-.22.22-.4.4-.82.4z"/></svg> Chat Telegram</a>
-      <a href="https://www.facebook.com/groups/2270702649868716"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7H8v-2.9h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.2c-1.2 0-1.6.75-1.6 1.5v1.8H16l-.4 2.9h-2.1v7A10 10 0 0 0 22 12z"/></svg> Gruppo Facebook</a>
+      <a href="https://www.facebook.com/groups/aeroportolatina"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7H8v-2.9h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.2c-1.2 0-1.6.75-1.6 1.5v1.8H16l-.4 2.9h-2.1v7A10 10 0 0 0 22 12z"/></svg> Gruppo Facebook</a>
       <a href="https://github.com/aeroportolatina/website"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.09.68-.22.68-.48v-1.7c-2.78.62-3.37-1.2-3.37-1.2-.45-1.17-1.11-1.48-1.11-1.48-.91-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.9 1.56 2.36 1.11 2.94.85.09-.66.35-1.11.63-1.37-2.22-.26-4.55-1.13-4.55-5.02 0-1.11.39-2.02 1.03-2.73-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.04a9.4 9.4 0 0 1 5 0c1.91-1.32 2.75-1.04 2.75-1.04.55 1.4.2 2.44.1 2.7.64.71 1.03 1.62 1.03 2.73 0 3.9-2.34 4.76-4.57 5.01.36.32.68.94.68 1.9v2.82c0 .27.18.58.69.48A10.02 10.02 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg> GitHub · contribuisci</a>
     </div>
   </div>
@@ -300,14 +320,18 @@ h2{font-size:1.4rem}
     </div>
     <div>
       <h3>Partecipa</h3>
-      <p><a href="https://t.me/aeroportolatina">Chat di comunità (Telegram)</a><br><a href="https://github.com/aeroportolatina/website">Progetto su GitHub</a><br>aeroportolatina.it</p>
+      <p><a href="https://t.me/aeroportolatina">Chat di comunità (Telegram)</a><br><a href="https://www.facebook.com/groups/aeroportolatina">Gruppo Facebook</a><br><a href="https://github.com/aeroportolatina/website">Progetto su GitHub</a><br>aeroportolatina.it</p>
     </div>
   </div>
 </footer>
 
-<a class="tg-float" href="https://t.me/aeroportolatina" aria-label="Unisciti alla chat di comunità su Telegram">
+<a class="fb-float" href="https://www.facebook.com/groups/aeroportolatina" aria-label="Gruppo Facebook del Comitato">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7H8v-2.9h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.2c-1.2 0-1.6.75-1.6 1.5v1.8H16l-.4 2.9h-2.1v7A10 10 0 0 0 22 12z"/></svg>
+  Facebook
+</a>
+<a class="tg-float" href="https://t.me/aeroportolatina" aria-label="Chat di comunità su Telegram">
   <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71l-4.13-3.05-1.98 1.93c-.22.22-.4.4-.82.4z"/></svg>
-  Unisciti alla chat
+  Telegram
 </a>
 
 </body>
