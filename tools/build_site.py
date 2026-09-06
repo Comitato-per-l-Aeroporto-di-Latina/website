@@ -57,6 +57,12 @@ border-radius:8px;padding:1rem 1.2rem;margin:1rem 0}
 .group{margin:1.6rem 0 .6rem;font-size:1.2rem}
 .rass{padding:.35rem 0;border-bottom:1px solid var(--bordo);font-size:.95rem}
 .rass .id{color:var(--muted);font-family:monospace;font-size:.8rem;margin-right:.3rem}
+.kicker{margin-bottom:6px}.kicker a{color:#dff;text-decoration:none;font-size:.85rem;opacity:.9}
+.kicker a:hover{text-decoration:underline}
+.tg-float{position:fixed;right:16px;bottom:16px;z-index:60;display:inline-flex;align-items:center;
+gap:9px;background:#229ED9;color:#fff;text-decoration:none;padding:11px 17px;border-radius:999px;
+font-weight:600;box-shadow:0 6px 20px rgba(0,0,0,.18)}
+.tg-float:hover{background:#1c8dc2}.tg-float svg{width:20px;height:20px}
 footer{max-width:900px;margin:0 auto;padding:1.5rem 1.2rem 3rem;color:var(--muted);font-size:.82rem;border-top:1px solid var(--bordo)}
 .disclaimer{background:#fffbe6;border:1px solid #f0e4a8;border-radius:6px;padding:.7rem .9rem;font-size:.85rem;margin-top:1rem}
 """
@@ -94,8 +100,17 @@ def pdf_map() -> dict:
             for v in m.values() if v.get("stato") == "ok" and v.get("file_pdf")}
 
 
+TG = ('<a class="tg-float" href="https://t.me/aeroportolatina" '
+      'aria-label="Unisciti alla chat di comunità su Telegram">'
+      '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9.78 18.65l.28-4.23 '
+      '7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 '
+      '1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71l-4.13-3.05-1.98 1.93c-.22.22-.4.4-.82.4z"/></svg>'
+      'Unisciti alla chat</a>')
+
+
 def page(title: str, body: str) -> str:
-    nav = ('<nav class="top"><a href="index.html">Home</a>'
+    nav = ('<nav class="top"><a href="index.html">&larr; Comitato</a>'
+           '<a href="archivio.html">Ricerca e archivio</a>'
            '<a href="cronistoria.html">Cronistoria</a>'
            '<a href="atti.html">Atti</a>'
            '<a href="rassegna-stampa.html">Rassegna stampa</a>'
@@ -103,20 +118,23 @@ def page(title: str, body: str) -> str:
            '<a href="da-reperire.html">Da reperire</a></nav>')
     return f"""<!doctype html><html lang="it"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{e(title)} — Comitato per l'Aeroporto di Latina</title>
+<title>{e(title)} — Ricerca e Archivio · Comitato per l'Aeroporto di Latina</title>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <style>{CSS}</style></head>
-<body><header class="site"><div class="wrap"><h1>Comitato per l'Aeroporto di Latina</h1>
-<p>Archivio documentale delle vicende dell'aeroporto "Enrico Comani" e delle proposte di uso civile</p></div>
+<body><header class="site"><div class="wrap">
+<div class="kicker"><a href="index.html">Comitato per l'Aeroporto di Latina</a></div>
+<h1>Ricerca e Archivio Documentale</h1>
+<p>Le vicende dell'aeroporto "Enrico Comani" e delle proposte di uso civile: fonti, atti e memoria storica.</p></div>
 {nav}</header><main>{body}</main>
 <footer><div class="disclaimer">Le copie PDF sono conservate a fini di documentazione e
 consultazione storica; i diritti restano dei rispettivi editori. Segnalazioni:
 apri una issue sul <a href="https://github.com/fpietrosanti/aeroportodilatina">repository</a>.</div>
-<p>Base dati aperta · fonte di verità: <code>data/*.json</code> · pagine generate automaticamente.</p></footer>
-</body></html>"""
+<p>Base dati aperta · fonte di verità: <code>data/*.json</code> · pagine generate automaticamente ·
+<a href="index.html">torna al Comitato</a></p></footer>
+{TG}</body></html>"""
 
 
-def build_index(cron, stake, atti=None) -> str:
+def build_archivio(cron, stake, atti=None) -> str:
     n = len(cron["eventi"])
     off = sum(1 for x in cron["eventi"] if x["stato_reperimento"] == "OFFLINE-DA-REPERIRE")
     fav = sum(1 for x in stake["stakeholder"] if x["posizione"] == "FAVOREVOLE")
@@ -286,9 +304,9 @@ BASE_URL = "https://aeroportolatina.it"
 
 def build_sitemap(lastmod):
     """sitemap.xml con le pagine HTML e i PDF archiviati (rigenerata a ogni build)."""
-    pages = [("", "1.0"), ("cronistoria.html", "0.9"), ("atti.html", "0.9"),
-             ("rassegna-stampa.html", "0.8"), ("stakeholder.html", "0.7"),
-             ("da-reperire.html", "0.6")]
+    pages = [("", "1.0"), ("archivio.html", "0.9"), ("cronistoria.html", "0.9"),
+             ("atti.html", "0.9"), ("rassegna-stampa.html", "0.8"),
+             ("stakeholder.html", "0.7"), ("da-reperire.html", "0.6")]
     entries = [(f"{BASE_URL}/{p}", lastmod, prio) for p, prio in pages]
     if MANIFEST.exists():
         m = json.loads(MANIFEST.read_text(encoding="utf-8"))
@@ -323,7 +341,7 @@ def main() -> None:
     stake = load(DATA / "stakeholder.json")
     atti = load(DATA / "atti.json") if (DATA / "atti.json").exists() else None
     pm = pdf_map()
-    (ROOT / "index.html").write_text(build_index(cron, stake, atti), encoding="utf-8")
+    (ROOT / "archivio.html").write_text(build_archivio(cron, stake, atti), encoding="utf-8")
     (ROOT / "cronistoria.html").write_text(build_cronistoria(cron, pm), encoding="utf-8")
     (ROOT / "stakeholder.html").write_text(build_stakeholder(stake), encoding="utf-8")
     (ROOT / "da-reperire.html").write_text(build_da_reperire(cron), encoding="utf-8")
