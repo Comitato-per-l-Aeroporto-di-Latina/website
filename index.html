@@ -87,6 +87,10 @@ footer{background:var(--blu);color:#cfe0ee;padding:40px 0}
 footer a{color:#fff}
 footer h3{color:#fff;font-size:1.05rem}
 .foot-grid{display:flex;flex-wrap:wrap;gap:32px;justify-content:space-between}
+.contacts{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:26px;padding-bottom:22px;border-bottom:1px solid rgba(255,255,255,.16)}
+.contacts a{display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.08);color:#fff;text-decoration:none;padding:11px 18px;border-radius:999px;font-weight:600}
+.contacts a:hover{background:rgba(255,255,255,.18)}
+.contacts svg{width:20px;height:20px;fill:currentColor}
 
 @media(max-width:820px){
 .nav-links a{display:none}
@@ -119,14 +123,14 @@ h2{font-size:1.4rem}
   <div class="wrap">
     <span class="eyebrow">Terzo aeroporto del Lazio</span>
     <h1>L'Aeroporto di Latina pronto ad aprire ai voli civili.</h1>
-    <p class="lead">Un'infrastruttura aeroportuale <b>già esistente</b>, collegata a Roma per ferrovia in <b>circa 40 minuti</b> (esempio orario attuale), che può diventare il terzo scalo del Lazio — per decongestionare Fiumicino e Ciampino e servire il sud pontino, il basso Lazio e le isole.</p>
+    <p class="lead">Un'infrastruttura aeroportuale <b>già esistente</b>, collegata a Roma in <b>35 minuti di treno con l'Intercity</b>, che può diventare il terzo scalo del Lazio — per decongestionare Fiumicino e Ciampino e servire il sud pontino, il basso Lazio e le isole.</p>
     <div class="cta">
       <a class="btn gold" href="https://t.me/aeroportolatina">Unisciti alla community</a>
       <a class="btn ghost" href="#perche">Perché Latina</a>
       <a class="btn ghost" href="archivio.html">Ricerca e archivio documentale</a>
     </div>
     <div class="hero-facts">
-      <div><b>~40 min</b>Latina Scalo → Roma Termini (treno)</div>
+      <div><b>35 min</b>Latina Scalo → Roma Termini (Intercity)</div>
       <div><b>2°</b>bacino del Lazio per popolazione</div>
       <div><b>già esistente</b>sedime e pista del Comani</div>
     </div>
@@ -205,7 +209,7 @@ h2{font-size:1.4rem}
         <p class="mapcap">Schema indicativo, non in scala. Distanze stradali approssimative.</p>
       </div>
       <div class="mapbox">
-        <h3 style="margin:0 0 6px;font-size:1.05rem">A circa 40 minuti di treno da Roma</h3>
+        <h3 style="margin:0 0 6px;font-size:1.05rem">A 35 minuti da Roma con l'Intercity</h3>
         <svg viewBox="0 0 560 340" role="img" aria-label="Schema ferroviario: aeroporto Comani, Latina Scalo e Roma Termini">
           <rect x="0" y="0" width="560" height="340" fill="#eef4f9"/>
           <line x1="90" y1="170" x2="470" y2="170" stroke="#0b3d67" stroke-width="4"/>
@@ -223,7 +227,7 @@ h2{font-size:1.4rem}
           <circle cx="470" cy="170" r="9" fill="#0b3d67"/>
           <text x="470" y="205" text-anchor="middle" font-family="var(--font)" font-size="13" font-weight="700" fill="#0b3d67">Roma Termini</text>
           <rect x="235" y="150" width="90" height="30" rx="15" fill="#f0b429"/>
-          <text x="280" y="170" text-anchor="middle" font-family="var(--font)" font-size="14" font-weight="700" fill="#3a2b00">≈ 40 min</text>
+          <text x="280" y="170" text-anchor="middle" font-family="var(--font)" font-size="13" font-weight="700" fill="#3a2b00">35 min · IC</text>
         </svg>
         <p class="mapcap">Collegamento ferroviario diretto sulla linea Roma–Napoli.</p>
       </div>
@@ -281,6 +285,13 @@ h2{font-size:1.4rem}
 </section>
 
 <footer>
+  <div class="wrap">
+    <div class="contacts">
+      <a href="https://t.me/aeroportolatina"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71l-4.13-3.05-1.98 1.93c-.22.22-.4.4-.82.4z"/></svg> Chat Telegram</a>
+      <a href="https://www.facebook.com/groups/2270702649868716"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7H8v-2.9h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.2c-1.2 0-1.6.75-1.6 1.5v1.8H16l-.4 2.9h-2.1v7A10 10 0 0 0 22 12z"/></svg> Gruppo Facebook</a>
+      <a href="https://github.com/fpietrosanti/aeroportodilatina"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.09.68-.22.68-.48v-1.7c-2.78.62-3.37-1.2-3.37-1.2-.45-1.17-1.11-1.48-1.11-1.48-.91-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.9 1.56 2.36 1.11 2.94.85.09-.66.35-1.11.63-1.37-2.22-.26-4.55-1.13-4.55-5.02 0-1.11.39-2.02 1.03-2.73-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.04a9.4 9.4 0 0 1 5 0c1.91-1.32 2.75-1.04 2.75-1.04.55 1.4.2 2.44.1 2.7.64.71 1.03 1.62 1.03 2.73 0 3.9-2.34 4.76-4.57 5.01.36.32.68.94.68 1.9v2.82c0 .27.18.58.69.48A10.02 10.02 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg> GitHub · contribuisci</a>
+    </div>
+  </div>
   <div class="wrap foot-grid">
     <div style="max-width:340px">
       <h3>Comitato per l'Aeroporto di Latina</h3>
