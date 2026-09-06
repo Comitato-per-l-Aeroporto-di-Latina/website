@@ -1,0 +1,20 @@
+categoria,ente,ufficio,pec,email,stato_invio,data_invio,fonte
+DESTINATARIO FORMALE,MASE - Ministero dell'Ambiente e della Sicurezza Energetica,"Direzione Generale Valutazioni Ambientali - Commissione Tecnica VIA-VAS (procedura VAS 8657, referente A. Maggiore)",va@pec.mase.gov.it,va-5@mase.gov.it,,,https://va.mite.gov.it/it-IT/ps/Home/Contatti
+PER CONOSCENZA - ISTITUZIONALE,ENAC - Ente Nazionale per l'Aviazione Civile,Protocollo generale,protocollo@pec.enac.gov.it,,,,https://www.enac.gov.it/contatti-e-pec/
+PER CONOSCENZA - ISTITUZIONALE,MIT - Ministero delle Infrastrutture e dei Trasporti,"Direzione generale per gli aeroporti, il trasporto aereo e i servizi satellitari",dg.ta@pec.mit.gov.it,,,,https://trasparenza.mit.gov.it/archivio13_strutture_-1_14311.html
+PER CONOSCENZA - ISTITUZIONALE,MIT - Ministero delle Infrastrutture e dei Trasporti,Dipartimento per i trasporti e la navigazione (in subordine),dip.trasporti@pec.mit.gov.it,,,,https://trasparenza.mit.gov.it/archivio13_strutture_-1_14303.html
+PER CONOSCENZA - ISTITUZIONALE,ENAV S.p.A.,Protocollo generale,protocollogenerale@pec.enav.it,,,,https://www.enav.it/contacts
+PER CONOSCENZA - ISTITUZIONALE,Aeronautica Militare - Ministero della Difesa,Stato Maggiore Aeronautica (AOO ARM001),stataereo@postacert.difesa.it,stataereo@aeronautica.difesa.it,,,https://www.difesa.it/protocollo/aoo-difesa/aeronautica/arm001/35047.html
+TERRITORIALI E POLITICI,Regione Lazio,Giunta / Presidenza - Protocollo generale,protocollo@pec.regione.lazio.it,,,,https://www.regione.lazio.it/urp/pec/indirizzi
+TERRITORIALI E POLITICI,Regione Lazio,"Direzione regionale Trasporti, Mobilita, Tutela del territorio (ex Infrastrutture e Mobilita)",trasporti.territorio.demanio@pec.regione.lazio.it,,,,https://www.regione.lazio.it/urp/pec/indirizzi
+TERRITORIALI E POLITICI,Regione Lazio,Direzione regionale Lavori Pubblici e Infrastrutture,dir.lavoripubblici@pec.regione.lazio.it,,,,https://www.regione.lazio.it/urp/pec/indirizzi
+TERRITORIALI E POLITICI,Consiglio regionale del Lazio,Protocollo generale,protocollocrl@cert.consreglazio.it,,,,https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=contenutidettaglio&id=39
+TERRITORIALI E POLITICI,Comune di Latina,Protocollo generale,protocollo@pec.comune.latina.it,,,,https://www.comune.latina.it/home/amministrazione/uffici/Ufficio-31.html
+TERRITORIALI E POLITICI,Provincia di Latina,Ufficio Protocollo,ufficio.protocollo@pec.provincia.latina.it,,,,https://www.provincia.latina.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/12019
+TERRITORIALI E POLITICI,Camera dei Deputati,"IX Commissione Trasporti (nessuna PEC dedicata per commissione; usare protocollo amministrazione / URP)",[non esiste PEC per singola commissione],sgag_protocollo@camera.it,,,https://conoscere.camera.it/comunicazione-e-rapporti-con-i-cittadini/rapporti-con-i-cittadini
+TERRITORIALI E POLITICI,Senato della Repubblica,"8a Commissione Ambiente/Lavori pubblici (nessuna PEC dedicata per commissione; usare PEC istituzionale)",amministrazione@pec.senato.it,,,,https://www.senato.it/relazioni-con-i-cittadini/procedura-ordine-richieste-concernenti-dati-personali-contenuti-atti
+ECONOMICO-SOCIALI,Camera di Commercio di Frosinone-Latina,Protocollo / segreteria generale,cciaa@pec.frlt.camcom.it,,,,https://www.frlt.camcom.it/chi-siamo/pec
+ECONOMICO-SOCIALI,Unindustria (Confindustria Roma-Frosinone-Latina-Rieti-Viterbo),Sede di Latina / segreteria,info@pec.un-industria.it,,,,https://www.un-industria.it/contatti/
+ALTRI,ART - Autorita di Regolazione dei Trasporti,Protocollo,pec@pec.autorita-trasporti.it,,,,https://www.autorita-trasporti.it/en/contatti/
+ALTRI,ADR - Aeroporti di Roma S.p.A.,"Relazioni esterne / Ufficio stampa (email ordinaria, soggetto privato non PA)",aeroportidiromaspa@pec.adr.it,relazioni_esterne@adr.it,,,https://www.adr.it/azn-contatti
+MEDIA,Testate giornalistiche (lista completa),"Comunicato stampa - email uniforme uguale per tutti (vedi file dedicato)",n/a,vedi docs/comunicato/testate-contatti.csv,,,docs/comunicato/testate-contatti.csv

@@ -18,16 +18,17 @@
 6. [Base di conoscenza: il sistema aeroportuale del Lazio](#6-base-di-conoscenza-il-sistema-aeroportuale-del-lazio)
 7. [L'intermodalità: il criterio dirimente per il terzo scalo](#7-lintermodalità-il-criterio-dirimente-per-il-terzo-scalo)
 8. [Tabella comparativa Latina / Frosinone / Viterbo](#8-tabella-comparativa-latina--frosinone--viterbo)
-9. [La compatibilità civile-militare come hard gate](#9-la-compatibilità-civile-militare-come-hard-gate)
-10. [Proposta di metodo: studio di fattibilità comparato e Comitato Tecnico](#10-proposta-di-metodo-il-comitato-tecnico-per-il-terzo-aeroporto-del-lazio)
-11. [Registro delle fonti](#11-registro-delle-fonti)
-12. [Conclusioni e richieste puntuali al valutatore](#12-conclusioni-e-richieste-puntuali-al-valutatore)
+9. [Profilo ambientale comparato e sostenibilità](#9-profilo-ambientale-comparato-e-sostenibilità-nel-merito-della-vas)
+10. [La compatibilità civile-militare come hard gate](#10-la-compatibilità-civile-militare-come-hard-gate)
+11. [Proposta di metodo: studio di fattibilità comparato e Comitato Tecnico](#11-proposta-di-metodo-studio-di-fattibilità-comparato-e-comitato-tecnico)
+12. [Registro delle fonti](#12-registro-delle-fonti)
+13. [Conclusioni e richieste puntuali al valutatore](#13-conclusioni-e-richieste-puntuali-al-valutatore)
 
 ---
 
 ## 1. Frontespizio e sintesi esecutiva
 
-**Ente proponente dell'osservazione:** *Comitato per l'Aeroporto di Latina* — aggregazione civica, non partitica e in forma informale, di cittadini, professionisti e portatori di interesse del territorio pontino, che cura l'archivio documentale pubblico [aeroportolatina.it](https://aeroportolatina.it).
+**Ente proponente dell'osservazione:** *Comitato per l'Aeroporto di Latina* — aggregazione civica, non partitica e in forma informale, di cittadini, professionisti e portatori di interesse del territorio pontino, che cura l'archivio documentale pubblico [aeroportolatina.it](https://aeroportolatina.it). **Contatti:** [comitato@aeroportolatina.it](mailto:comitato@aeroportolatina.it).
 
 **A chi è rivolta:** Ministero dell'Ambiente e della Sicurezza Energetica (MASE) – Direzione generale Valutazioni ambientali; Commissione Tecnica di Verifica dell'Impatto Ambientale VIA-VAS; ENAC (proponente del Piano); Ministero delle Infrastrutture e dei Trasporti (MIT).
 
@@ -271,7 +272,22 @@ Latina dispone **già oggi** di ciò che agli altri candidati manca: una **ferro
 
 ---
 
-## 9. La compatibilità civile-militare come *hard gate*
+## 9. Profilo ambientale comparato e sostenibilità (nel merito della VAS)
+
+Trattandosi di una Valutazione Ambientale Strategica, la scelta del terzo scalo va valutata anche — e soprattutto — sotto il profilo degli **effetti ambientali**. Il Comitato segnala gli elementi che, nel merito ambientale, depongono a favore di Latina e chiede che il Rapporto Ambientale li **compari esplicitamente e con i medesimi indicatori** tra i tre siti.
+
+- **Consumo di suolo.** Latina riutilizza un **sedime aeroportuale demaniale già esistente** (pista, aree, servizi): l'impronta di nuovo consumo di suolo è **minima** rispetto a soluzioni che richiedono nuove grandi opere (a Frosinone la nuova stazione AV MedioLatium e i relativi cantieri comportano consumo di suolo e opere aggiuntive). Il riuso è coerente con l'obiettivo di **contenimento del consumo di suolo** (Strategia Nazionale per lo Sviluppo Sostenibile e obiettivi UE).
+- **Intermodalità ed emissioni.** L'accessibilità su **ferrovia esistente** (navetta ~5 min + Intercity, ~40 min per Roma Termini) minimizza le emissioni dell'adduzione terrestre rispetto a modelli auto-dipendenti, sfruttando la dorsale Roma-Napoli **già in esercizio** senza nuove infrastrutturazioni.
+- **Rumore e ricettori.** L'impatto acustico va valutato sui ricettori nell'intorno di ciascun sedime; a Latina l'attività di volo è già presente e regolamentata. Il Rapporto Ambientale deve confrontare la **popolazione esposta** nei tre scenari.
+- **Aree protette e Rete Natura 2000.** Ogni sito va verificato rispetto alla prossimità di aree protette e siti Natura 2000: per il quadrante pontino la relazione con il **Parco Nazionale del Circeo** e le zone umide costiere; per Viterbo il contesto termale/agricolo/archeologico già segnalato nel PNA 2012. Il Comitato chiede una **Valutazione di Incidenza (VIncA) comparata**.
+- **Rischio idrogeologico, paesaggio, archeologia.** Vanno comparati i vincoli idrogeologici, paesaggistici e archeologici dei tre sedimi, con la relativa incidenza sui costi e sui tempi di realizzazione.
+- **Monitoraggio.** Il Rapporto Ambientale deve prevedere **indicatori e un piano di monitoraggio** degli effetti (aria, rumore, suolo, acque, biodiversità), resi pubblici e verificabili.
+
+**Conclusione ambientale.** Il **riuso di un'infrastruttura esistente, già connessa alla rete ferroviaria** (Latina), è in linea di principio l'opzione a **minore impatto marginale** — minor consumo di suolo, minori opere, adduzione su ferro esistente. Ma il Comitato non lo dà per acquisito: chiede che tale conclusione sia **dimostrata con una comparazione ambientale sui medesimi indicatori** per tutti i siti, esplicitata nel Rapporto Ambientale della VAS.
+
+---
+
+## 10. La compatibilità civile-militare come *hard gate*
 
 Poiché tutti e tre i siti sono sedimi militari attivi, la **compatibilità civile-militare** è il primo cancello eliminatorio (*hard gate*) di qualunque valutazione seria. Per Latina, ciò significa che prima di dichiarare fattibile uno scalo commerciale occorre una **simulazione congiunta Aeronautica Militare – ENAC – ENAV** che risponda ad almeno i seguenti quesiti:
 
@@ -288,7 +304,7 @@ La medesima batteria di quesiti va posta, *mutatis mutandis*, a Frosinone (66° 
 
 ---
 
-## 10. Proposta di metodo: il Comitato Tecnico per il Terzo Aeroporto del Lazio
+## 11. Proposta di metodo: studio di fattibilità comparato e Comitato Tecnico
 
 Il Comitato propone che la localizzazione sia decisa attraverso un **Comitato Tecnico per il Terzo Aeroporto del Lazio**, con procedura pubblica e verificabile.
 
@@ -311,7 +327,7 @@ Questo metodo è neutrale rispetto all'esito: se applicato correttamente, potreb
 
 ---
 
-## 11. Registro delle fonti
+## 12. Registro delle fonti
 
 ### 12.1 Fonti istituzionali primarie — Piano e VAS
 
@@ -376,7 +392,7 @@ Questo metodo è neutrale rispetto all'esito: se applicato correttamente, potreb
 
 ---
 
-## 12. Conclusioni e richieste puntuali al valutatore
+## 13. Conclusioni e richieste puntuali al valutatore
 
 Sulla base di quanto sopra, il *Comitato per l'Aeroporto di Latina* chiede al MASE (autorità competente), alla Commissione VIA-VAS e a ENAC (proponente) di:
 
