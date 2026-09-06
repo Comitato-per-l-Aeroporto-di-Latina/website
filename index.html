@@ -212,7 +212,7 @@ h2{font-size:1.4rem}
           <text x="360" y="301" font-family="var(--font)" font-size="12" fill="#5a6b7a">Comani · ~70 km da Roma</text>
           <rect x="24" y="30" width="262" height="58" rx="8" fill="#ffffff" stroke="#cdd8e2"/>
           <text x="38" y="52" font-family="var(--font)" font-size="12" font-weight="700" fill="#1d8a4c">Collegamento bus aeroportuale</text>
-          <text x="38" y="72" font-family="var(--font)" font-size="12" fill="#24303c">&#8594; Ciampino ~1 h  ·  &#8594; Fiumicino ~1 h 30</text>
+          <text x="38" y="72" font-family="var(--font)" font-size="12" fill="#24303c">&#8594; Ciampino ~1 h  ·  &#8594; Fiumicino ~1 h 10</text>
         </svg>
         <p class="mapcap">Schema indicativo, non in scala. Collegamento con gli scali romani via bus/navetta; distanze e tempi stradali approssimativi.</p>
         <table style="width:100%;border-collapse:collapse;font-size:.85rem;margin-top:10px">
@@ -238,16 +238,27 @@ h2{font-size:1.4rem}
             <rect x="60" y="95" width="60" height="26" rx="6" fill="#fff" stroke="#0b3d67"/>
             <text x="90" y="112" text-anchor="middle" font-family="var(--font)" font-size="12" font-weight="600" fill="#0b3d67">✈ Comani</text>
             <line x1="90" y1="121" x2="90" y2="161" stroke="#9db6c9" stroke-width="1.5" stroke-dasharray="4 3"/>
-            <text x="150" y="135" font-family="var(--font)" font-size="11" font-weight="600" fill="#1d8a4c">Navetta ~3 km</text>
+            <text x="150" y="135" font-family="var(--font)" font-size="11" font-weight="600" fill="#1d8a4c">Navetta ~3 km &middot; ~10 min</text>
             <text x="150" y="150" font-family="var(--font)" font-size="11" fill="#5a6b7a">aeroporto &#8596; stazione</text>
           </g>
           <circle cx="470" cy="170" r="9" fill="#0b3d67"/>
           <text x="470" y="205" text-anchor="middle" font-family="var(--font)" font-size="13" font-weight="700" fill="#0b3d67">Roma Termini</text>
           <rect x="235" y="150" width="90" height="30" rx="15" fill="#f0b429"/>
           <text x="280" y="170" text-anchor="middle" font-family="var(--font)" font-size="13" font-weight="700" fill="#3a2b00">35 min · IC</text>
+          <text x="280" y="242" text-anchor="middle" font-family="var(--font)" font-size="13" font-weight="700" fill="#0b3d67">Totale aeroporto &#8594; Roma Termini &#8776; 45 min</text>
+          <text x="280" y="260" text-anchor="middle" font-family="var(--font)" font-size="11" fill="#5a6b7a">navetta ~10 min + Intercity 35 min</text>
         </svg>
         <p class="mapcap">Collegamento ferroviario diretto sulla linea Roma–Napoli.</p>
       </div>
+    </div>
+    <div class="card" style="margin-top:16px;border-color:#f0e2b8;background:#fff7e6">
+      <h3 style="margin:.1rem 0 .6rem;font-size:1.05rem">Tempo reale aeroporto &#8594; centro di Roma, a confronto</h3>
+      <div class="grid g3">
+        <div class="point"><div class="n">&#9992;</div><div><b>Latina (Comani)</b><br>navetta ~10 min + Intercity 35 min = <b>&#8776; 45 min</b> per Roma Termini</div></div>
+        <div class="point"><div class="n">&#9992;</div><div><b>Fiumicino (FCO)</b><br>Leonardo Express 32 min + lunghi trasferimenti a piedi nel grande terminal &#8776; <b>45-50 min</b> per Roma Termini</div></div>
+        <div class="point"><div class="n">&#9992;</div><div><b>Malpensa (confronto)</b><br>Malpensa Express <b>&#8776; 52 min</b> per Milano Centrale</div></div>
+      </div>
+      <p class="mapcap" style="margin-top:10px">Il tempo complessivo "porta&#8209;a&#8209;Termini" di uno scalo grande come Fiumicino &egrave; comparabile a quello di Latina; e Malpensa serve Milano pur a ~52 min di treno dal centro.</p>
     </div>
   </div>
 </section>
