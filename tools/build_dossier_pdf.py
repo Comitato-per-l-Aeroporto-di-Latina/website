@@ -90,12 +90,9 @@ def main():
 
     body = render("dossier-terzo-scalo-lazio.md")
     coex = render("cap-coesistenza-civile-militare.md")
-    acc = render("accessi-civici-da-fare.md")
     parts = [COVER, body]
     if coex:
         parts.append('<div class="pagebreak"></div>' + coex)
-    if acc:
-        parts.append('<div class="pagebreak"></div><h1>Allegato — Documentazione da reperire (accessi civici)</h1>' + acc)
     html = (f'<!doctype html><html lang="it"><head><meta charset="utf-8">'
             f'<style>{CSS}</style></head><body>{"".join(parts)}</body></html>')
     OUT_HTML.write_text(html, encoding="utf-8")

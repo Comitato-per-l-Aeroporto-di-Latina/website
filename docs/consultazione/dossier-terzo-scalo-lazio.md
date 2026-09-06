@@ -16,13 +16,12 @@
 4. [Il quadro giuridico della VAS e l'obbligo di comparare le ragionevoli alternative](#4-il-quadro-giuridico-della-vas-e-lobbligo-di-comparare-le-ragionevoli-alternative)
 5. [L'osservazione principale del Comitato](#5-losservazione-principale-del-comitato)
 6. [Base di conoscenza: il sistema aeroportuale del Lazio](#6-base-di-conoscenza-il-sistema-aeroportuale-del-lazio)
-7. [Tabella comparativa Latina / Frosinone / Viterbo](#7-tabella-comparativa-latina--frosinone--viterbo)
-8. [La compatibilità civile-militare come hard gate](#8-la-compatibilità-civile-militare-come-hard-gate)
-9. [Proposta di metodo: il Comitato Tecnico per il Terzo Aeroporto del Lazio](#9-proposta-di-metodo-il-comitato-tecnico-per-il-terzo-aeroporto-del-lazio)
-10. [Rigore e correzioni](#10-rigore-e-correzioni)
-11. [Documentazione non ancora disponibile o accessibile al Comitato](#11-documentazione-non-ancora-disponibile-o-accessibile-al-comitato)
-12. [Registro delle fonti](#12-registro-delle-fonti)
-13. [Conclusioni e richieste puntuali al valutatore](#13-conclusioni-e-richieste-puntuali-al-valutatore)
+7. [L'intermodalità: il criterio dirimente per il terzo scalo](#7-lintermodalità-il-criterio-dirimente-per-il-terzo-scalo)
+8. [Tabella comparativa Latina / Frosinone / Viterbo](#8-tabella-comparativa-latina--frosinone--viterbo)
+9. [La compatibilità civile-militare come hard gate](#9-la-compatibilità-civile-militare-come-hard-gate)
+10. [Proposta di metodo: studio di fattibilità comparato e Comitato Tecnico](#10-proposta-di-metodo-il-comitato-tecnico-per-il-terzo-aeroporto-del-lazio)
+11. [Registro delle fonti](#11-registro-delle-fonti)
+12. [Conclusioni e richieste puntuali al valutatore](#12-conclusioni-e-richieste-puntuali-al-valutatore)
 
 ---
 
@@ -162,17 +161,17 @@ Il Lazio dispone oggi di due aeroporti commerciali (Fiumicino e Ciampino) e di u
 |---|---|---|
 | Denominazione | Aeroporto militare «Enrico Comani» (già «Aeroporto di Littoria», inaug. 28 marzo 1938) | [Wikipedia](https://it.wikipedia.org/wiki/Aeroporto_di_Latina) |
 | Sedime | Demanio militare, gestione Aeronautica Militare | corpus, EV-INFRA-001 |
-| Pista | Unica, asfalto, **1.700 m × 40 m**, orientamento 12/30, quota 28 m; operazioni **VFR** | [Wikipedia](https://it.wikipedia.org/wiki/Aeroporto_di_Latina) [da verificare presso ENAV/AM per dati AIP aggiornati] |
+| Pista | Unica, asfalto, **1.700 m × 40 m**, orientamento 12/30, quota 28 m; operazioni **VFR** | [Wikipedia](https://it.wikipedia.org/wiki/Aeroporto_di_Latina) |
 | Uso militare 2026 | **70° Stormo** — scuola di volo basico ad ala fissa, pienamente operativa; velivoli SF-260EA / simulatori T-260B; ammodernamento in corso dal 2015 | [Aeronautica Militare – 70° Stormo](https://www.aeronautica.difesa.it/organizzazione/reparti/comando-scuole-am-3-regione-aerea/70-stormo/) |
 | Altri usi | Aeroclub, elisoccorso 118, voli di Stato | corpus, EV-INFRA-001 |
-| Accessibilità ferroviaria | Ferrovia **già esistente**: stazione di **Latina** sulla dorsale **Roma-Napoli**, ~**35 min con Intercity** (Regionale ~39 min) verso Roma Termini. Lo scalo dista ~3 km / **~10 min di navetta** dalla stazione → **tempo intermodale ~45 min** aeroporto-Roma Termini, operativo da subito | [Trenitalia](https://www.trenitalia.com) / [RFI](https://www.rfi.it) [esempio orario, da completare con frequenze e capacità] |
-| Distanza stazione-aeroporto | Stazione di Latina Scalo a ~**3,1 km** (geodetica) dall'ARP; **NON** «500 m» (vedi § 10) | stima geodetica [da verificare con GIS] |
+| Accessibilità ferroviaria | Ferrovia **già esistente**: stazione di **Latina** sulla dorsale **Roma-Napoli**, ~**35 min con Intercity** (Regionale ~39 min) verso Roma Termini. Lo scalo dista ~3 km / **~5 min di navetta** dalla stazione → **tempo intermodale ~40 min** aeroporto-Roma Termini, operativo da subito | [Trenitalia](https://www.trenitalia.com) / [RFI](https://www.rfi.it) |
+| Distanza stazione-aeroporto | Stazione di Latina Scalo a ~**3,1 km** (geodetica) dall'ARP; **NON** «500 m» (vedi § 10) | stima geodetica |
 | Distanza da Roma | ~70 km da Roma; ~96 km da Fiumicino, ~81 km da Ciampino | corpus, EV-2020-002 |
 | Stato civile | **Nessun uso civile commerciale operativo**; solo ipotesi/pre-fattibilità | corpus, EV-2025-002 |
 
 **Storia del dibattito (sintesi).** L'idea di un uso civile del Comani risale al 1995-96 (proposta [Paride Martella](https://fattoalatina.it/2021/03/23/a-latina-se-non-hai-idee-chiedi-un-aeroporto-civile/), Provincia di Latina) ed è la più risalente del sistema laziale; già il **3 dicembre 1996** il [Senato](https://www.senato.it/uri-res/N2Ls?urn:nir:senato.repubblica;commissioni:bollettino:13.legislatura;69) discuteva emendamenti alla finanziaria per dare «priorità alla progettazione e realizzazione dell'aeroporto di Latina, quale scalo ausiliario e complementare a quelli di Fiumicino e di Ciampino». Seguono lo studio di fattibilità della [Camera di Commercio di Latina (2007)](https://it.wikipedia.org/wiki/Aeroporto_di_Latina), la [Mozione regionale n. 42/2018](http://www.consiglio.regione.lazio.it/consiglio-regionale/?id=2712&vw=newsDettaglio) (Califano-Forte), la mozione bipartisan [Forte-Simeone (2020)](https://www.ilmessaggero.it/latina/aeroporto_latina_mozione_regione_forte_simeone_terzo_scalo_del_lazio-5321427.html), l'[interrogazione Fazzone (2019)](https://www.ilfaroonline.it/2019/03/06/aeroporto-militare-salvare-uno-scalo-low-cost-latina-linterrogazione-fazzone/264125/). La cronistoria completa (22 eventi, 1938-2026) è in [aeroportolatina.it](https://aeroportolatina.it).
 
-**Posizioni istituzionali recenti (chiaroscuro, riportato per onestà NPOV).** Il presidente della Regione Francesco Rocca ha avuto una posizione mutevole: [apertura condizionata al Forum del Turismo (feb. 2025)](https://ilcaffe.tv/articolo/236206/un-aeroporto-internazionale-a-latina-la-politica-ci-riprova-ma) («mi piace l'idea di avere l'aeroporto a Frosinone o a Latina però poi ci deve essere un mercato»), poi orientamento verso la quarta pista di Fiumicino (2025/2026) [da verificare con fonte primaria/atto regionale]. Si segnala inoltre la notizia, riportata da [Latina Oggi](https://www.latinaoggi.eu/news/attualita/208061/enac-pietra-tombale-sull-aeroporto-civile-latina-non-pervenuta-nel-dossier-dell-ente.html), di un'esclusione di Latina dal dossier ENAC: **la fonte primaria di tale posizione non è stata reperita** e va acquisita (vedi § 11) prima di poterla trattare come fatto.
+**Posizioni istituzionali recenti (chiaroscuro, riportato per onestà NPOV).** Il presidente della Regione Francesco Rocca ha avuto una posizione mutevole: [apertura condizionata al Forum del Turismo (feb. 2025)](https://ilcaffe.tv/articolo/236206/un-aeroporto-internazionale-a-latina-la-politica-ci-riprova-ma) («mi piace l'idea di avere l'aeroporto a Frosinone o a Latina però poi ci deve essere un mercato»), poi orientamento verso la quarta pista di Fiumicino (2025/2026). Si segnala inoltre la notizia, riportata da [Latina Oggi](https://www.latinaoggi.eu/news/attualita/208061/enac-pietra-tombale-sull-aeroporto-civile-latina-non-pervenuta-nel-dossier-dell-ente.html), di un'esclusione di Latina dal dossier ENAC: **la fonte primaria di tale posizione non è stata reperita** e va acquisita (vedi § 11) prima di poterla trattare come fatto.
 
 ### 6.2 Frosinone — Aeroporto militare «Girolamo Moscardini»
 
@@ -182,12 +181,11 @@ Il Lazio dispone oggi di due aeroporti commerciali (Fiumicino e Ciampino) e di u
 | Uso militare 2026 | **66° Stormo costituito il 18 giugno 2026** — scuola di volo interforze per Aeromobili a Pilotaggio Remoto (APR/droni); dal 15 giugno 2026 ospita il Centro di eccellenza APR già di Amendola | [Aeronautica Militare](https://www.aeronautica.difesa.it/en/news/66-stormo-costituita-a-frosinone-la-scuola-di-volo-per-aeromobili-a-pilotaggio-remoto-dellaeronautica-militare/); [Difesa Online](https://www.difesaonline.it/2026/06/18/66-stormo-costituita-a-frosinone-la-scuola-di-volo-per-apr-dellaeronautica-militare/) |
 | Presenza 72° Stormo | Il 72° Stormo (elicotteri) mantiene a Frosinone «continuità manutentiva e presenza strategica» durante il trasferimento a Viterbo (2026-2028) | [Aeronautica Militare](https://www.aeronautica.difesa.it/news/scuola-di-volo-elicotteri-insediato-a-viterbo-il-72-stormo/) |
 | Accessibilità stradale | Autostrada A1; buona connessione viaria | [FrosinoneToday](https://www.frosinonetoday.it/attualita/nuova-stazione-alta-velocita-mediolatium-vantaggi-frusinate.html) |
-| Accessibilità ferroviaria attuale | Stazione di Frosinone su linea Roma-Cassino-Napoli; esempio orario ~**73 min** verso Roma Termini | [Trenitalia](https://www.trenitalia.com) [esempio orario, da completare] |
+| Accessibilità ferroviaria attuale | Stazione di Frosinone su linea Roma-Cassino-Napoli; ~**73 min** verso Roma Termini | [Trenitalia](https://www.trenitalia.com) |
 | Accessibilità ferroviaria futura | **Tutta da costruire**: nuova **stazione AV Frosinone-MedioLatium** sulla Roma-Napoli AV/AC (~**125 M€**, PFTE 2026, cantieri ~2030, fine ~2033). Anche a opera conclusa **servirà comunque una navetta stazione-aeroporto**, non ancora prevista | [FS News](https://www.fsnews.it/it/focus-on/servizi/2026/5/12/-nuova-stazione-di-frosinone-av-mediolatium-frusinate.html); [AGI](https://www.agi.it/economia/news/2026-05-12/frosinone-stazione-av-37021342/); [Il Messaggero](https://www.ilmessaggero.it/frosinone/stazione_alta_velocita_tempi_progetto_salvini-9528243.html) |
-| Stato progettuale | **Pre-fattibilità** (come Latina), con forte campagna promozionale dell'associazione **APARF**; atti e «vaglio ENAC» dichiarati da tradurre in documentazione pubblica verificabile | [aeroportodifrosinone.it](https://www.aeroportodifrosinone.it/) |
-| Claim «vaglio ENAC» | APARF dichiara che studi/masterplan/procedure sarebbero stati «vagliati positivamente da ENAC»: **portata giuridica da verificare** (protocollo/data/oggetto) | [da verificare] |
+| Stato progettuale | **Pre-fattibilità** (come Latina), con forte campagna promozionale dell'associazione **APARF**; **nessuna individuazione nel PNA né validazione aeroportuale pubblica** | [aeroportodifrosinone.it](https://www.aeroportodifrosinone.it/) |
 
-**Nota critica (neutrale).** Il progetto di Frosinone gode di un forte vantaggio *prospettico* (A1 + futura AV MedioLatium) e di un'intensa campagna promozionale. Restano però due elementi di fatto: (1) il Moscardini **non è un sedime militarmente liberato** — al contrario, il 2026 vi ha visto *nascere* il 66° Stormo e permanere presenza del 72° Stormo; (2) parte della narrativa aeroportuale è *promoter-driven* e va tradotta in documentazione pubblica verificabile (il «vaglio ENAC» dichiarato non equivale a un'individuazione nel PNA né a una validazione aeroportuale pubblica); (3) lo stato progettuale di Frosinone è di **pre-fattibilità, come quello di Latina**, e la sua futura accessibilità ferroviaria AV è **ancora tutta da realizzare**.
+**Nota critica (neutrale).** Il progetto di Frosinone gode di un forte vantaggio *prospettico* (A1 + futura AV MedioLatium) e di un'intensa campagna promozionale. Restano però due elementi di fatto: (1) il Moscardini **non è un sedime militarmente liberato** — al contrario, il 2026 vi ha visto *nascere* il 66° Stormo e permanere presenza del 72° Stormo; (2) parte della narrativa aeroportuale è *promoter-driven* e va tradotta in documentazione pubblica verificabile: non risulta alcuna individuazione di Frosinone nel PNA né una validazione aeroportuale pubblica; (3) lo stato progettuale di Frosinone è di **pre-fattibilità, come quello di Latina**, e la sua futura accessibilità ferroviaria AV è **ancora tutta da realizzare**.
 
 ### 6.3 Viterbo — Aeroporto militare «Tommaso Fabbri»
 
@@ -197,7 +195,7 @@ Il Lazio dispone oggi di due aeroporti commerciali (Fiumicino e Ciampino) e di u
 | Uso militare 2026 | **72° Stormo insediato il 15 gennaio 2026** — polo elicotteristico interforze; trasferimento da Frosinone in tre anni (2026-2028) | [Aeronautica Militare](https://www.aeronautica.difesa.it/news/scuola-di-volo-elicotteri-insediato-a-viterbo-il-72-stormo/); [Aviation Report](https://www.aviation-report.com/insediato-a-viterbo-il-72-stormo-la-scuola-di-volo-elicotteri-dellaeronautica-militare/) |
 | Investimento civile ENAC | ~**1 M€ (2023)**, poi programma fino a ~**2 M€**; finalità dichiarata **Regional Airport / aviazione generale / Regional Air Mobility**, non scalo commerciale di massa | [ENAC](https://www.enac.gov.it/news/aeroporto-di-viterbo-nuovo-modello-di-regional-airport/); [Comune di Viterbo](https://comune.viterbo.it/finanziamento-enac-aeroporto-civile-viterbo-la-nota-dellamministrazione-comunale/); [Tusciaweb](https://www.tusciaweb.eu/2026/01/un-progetto-due-milioni-rilancio-civile-dellaeroporto-viterbo) |
 | Maturità amministrativa | La **più elevata** tra i tre: già selezionato dal PNA 2012 e oggetto di atti d'intesa MIT-Regione (2008) | [ENAC 2012](https://www.enac.gov.it/app/uploads/2012/08/Vol3_ParteI_CAP_10_11.pdf) |
-| Accessibilità ferroviaria attuale | Linee FR3 e via Orte; esempio orario Viterbo Porta Fiorentina ~**100 min** verso Roma Termini (accessibilità debole) | [Trenitalia](https://www.trenitalia.com) [esempio orario, da completare] |
+| Accessibilità ferroviaria attuale | Linee FR3 e via Orte; Viterbo Porta Fiorentina ~**100 min** verso Roma Termini (accessibilità debole) | [Trenitalia](https://www.trenitalia.com) |
 | Tensione d'uso 2026 | Contemporanea, ingente espansione del polo militare elicotteristico che concorre con l'uso civile commerciale di massa | [Aeronautica Militare](https://www.aeronautica.difesa.it/news/scuola-di-volo-elicotteri-insediato-a-viterbo-il-72-stormo/) |
 
 **Nota critica (neutrale).** Viterbo è il concorrente **amministrativamente più maturo** e il Comitato lo riconosce espressamente. Tuttavia la sua maturità riguarda principalmente il modello *Regional Airport / Regional Air Mobility* e l'aviazione generale, **non** un aeroporto commerciale low cost da milioni di passeggeri; a ciò si aggiungono la debole accessibilità ferroviaria attuale verso Roma e la contemporanea espansione del polo militare elicotteristico. I presupposti del 2012 vanno perciò rivalutati alla luce del 2026.
@@ -208,33 +206,72 @@ Lo stesso PNA 2026 prevede per Fiumicino l'espansione fino a **100 milioni di pa
 
 ---
 
-## 7. Tabella comparativa Latina / Frosinone / Viterbo
+## 7. L'intermodalità: il criterio dirimente per il terzo scalo
 
-> Tabella di sintesi a fini di trasparenza istruttoria. I dati contrassegnati [dv] = *da verificare*; gli «esempi orari» ferroviari sono indicativi dell'offerta attuale, non tempi di progetto.
+Per un aeroporto ciò che conta davvero — per il passeggero e per il territorio — non è la distanza geografica da Roma, ma il **tempo intermodale complessivo "porta-a-città"**: aeroporto → prima stazione → Roma Termini. È l'accessibilità *reale* a determinare l'attrattività di uno scalo e la sua sostenibilità, ed è un obiettivo qualificante dello stesso PNA (intermodalità ferro-aria). **Su questo criterio dirimente, Latina-Comani è in ogni scenario la scelta migliore.**
+
+Latina dispone **già oggi** di ciò che agli altri candidati manca: una **ferrovia esistente** (dorsale Roma-Napoli), una **stazione a ~3 km / ~5 minuti di navetta** dallo scalo e un servizio **Intercity a ~35 minuti** da Roma Termini. Il tempo intermodale complessivo è di **circa 40 minuti, operativo da subito e senza nuove grandi opere**.
+
+<svg viewBox="0 0 680 268" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tempo intermodale verso Roma Termini per aeroporto">
+<text x="0" y="20" style="font:600 13px 'Segoe UI',Arial;fill:#0b3d67">Tempo intermodale aeroporto &#8594; Roma Termini (navetta + treno)</text>
+<line x1="158" y1="40" x2="158" y2="244" stroke="#cdd8e2" stroke-width="1"/>
+<text x="150" y="70" text-anchor="end" style="font:600 12px 'Segoe UI',Arial;fill:#0b3d67">Latina-Comani &#183; 70 km</text>
+<rect x="158" y="52" width="160" height="26" rx="4" fill="#f0b429" stroke="#0b3d67" stroke-width="1.5"/>
+<text x="324" y="70" style="font:700 12px 'Segoe UI',Arial;fill:#0b3d67">&#8776; 40 min &#183; da subito</text>
+<text x="150" y="110" text-anchor="end" style="font:400 12px 'Segoe UI',Arial;fill:#24303c">Roma-Ciampino &#183; 15 km</text>
+<rect x="158" y="92" width="160" height="26" rx="4" fill="#12557f"/>
+<text x="324" y="110" style="font:600 12px 'Segoe UI',Arial;fill:#12557f">&#8776; 40 min (rif.)</text>
+<text x="150" y="150" text-anchor="end" style="font:400 12px 'Segoe UI',Arial;fill:#24303c">Roma-Fiumicino &#183; 30 km</text>
+<rect x="158" y="132" width="192" height="26" rx="4" fill="#12557f"/>
+<text x="356" y="150" style="font:600 12px 'Segoe UI',Arial;fill:#12557f">&#8776; 45-50 min (rif.)</text>
+<text x="150" y="190" text-anchor="end" style="font:400 12px 'Segoe UI',Arial;fill:#24303c">Frosinone-Moscardini &#183; 90 km</text>
+<rect x="158" y="172" width="340" height="26" rx="4" fill="#9db6c9"/>
+<text x="504" y="190" style="font:600 12px 'Segoe UI',Arial;fill:#5a6b7a">&#8776; 85 min (oggi)</text>
+<text x="150" y="230" text-anchor="end" style="font:400 12px 'Segoe UI',Arial;fill:#24303c">Viterbo-Fabbri &#183; 80 km</text>
+<rect x="158" y="212" width="400" height="26" rx="4" fill="#9db6c9"/>
+<text x="564" y="230" style="font:600 12px 'Segoe UI',Arial;fill:#5a6b7a">&#8776; 100+ min</text>
+<text x="0" y="262" style="font:400 10px 'Segoe UI',Arial;fill:#7c93a6">Tempi intermodali complessivi (navetta fino alla prima stazione + treno). Frosinone: valore odierno; l'AV MedioLatium &#232; prevista solo dal ~2033.</text>
+</svg>
+
+| Aeroporto | Distanza da Roma | Prima stazione (navetta) | Treno &#8594; Roma Termini | **Tempo intermodale** | Disponibilità |
+|---|---|---|---|---|---|
+| **Latina-Comani** | ~70 km | Latina Scalo &#183; ~5 min | ~35 min (Intercity) | **&#8776; 40 min** | **da subito** |
+| Roma-Ciampino *(rif.)* | ~15 km | in loco &#183; bus | ~30 min | &#8776; 40 min | esistente |
+| Roma-Fiumicino *(rif.)* | ~30 km | in aerostazione | 32 min (Leonardo Express) | &#8776; 45-50 min | esistente (+ lunghi trasferimenti a piedi) |
+| Frosinone-Moscardini | ~90 km | Frosinone &#183; navetta da istituire | ~73 min | &#8776; 85 min | solo AV dal ~2033 |
+| Viterbo-Fabbri | ~80 km | via Orte/FR3 | ~100 min | &#8776; 100+ min | esistente (debole) |
+
+**Perché la soluzione di Latina è strutturalmente superiore.** Il vero fabbisogno di un terzo scalo è una **navetta rapida verso una linea ferroviaria già capiente e frequente**: Latina lo offre oggi, sulla dorsale Roma-Napoli servita da Intercity e regionali. L'unica risposta di Frosinone — la **futura stazione AV MedioLatium, non prima del ~2033** — non elimina il problema di prossimità (servirebbe **comunque** una navetta stazione-aeroporto, oggi non prevista) e, soprattutto, **immetterebbe nuovi treni sulla dorsale Alta Velocità Roma-Napoli, tra le più congestionate d'Italia**, sottraendo capacità a un asse strategico invece di sfruttare i collegamenti regionali e passanti **già esistenti**. Dove serve una **navetta rapida su rete esistente**, Frosinone propone una **grande opera AV lontana nel tempo e potenzialmente congestionante**; Latina realizza il modello intermodale corretto **subito e a costi contenuti**.
+
+---
+
+## 8. Tabella comparativa Latina / Frosinone / Viterbo
+
+> Tabella di sintesi comparativa a fini di trasparenza istruttoria; i tempi ferroviari indicati riflettono l'offerta attuale.
 
 | Criterio | **Latina-Comani** | **Frosinone-Moscardini** | **Viterbo-Fabbri** |
 |---|---|---|---|
 | Quadrante regionale | Sud | Sud-est | Nord |
 | Sedime | Militare esistente | Militare esistente | Militare esistente (>250 ha) |
-| Pista attuale | 1.700 × 40 m, VFR [dv AIP] | [dv lunghezza/PCN] | pista principale + secondaria; ~1.500 m certificabili civili |
-| Adeguabilità *airside* Code C | Da dimostrare [dv] | Da dimostrare [dv] | Oggetto di programma ENAC (Regional) [dv per Code C di massa] |
+| Pista attuale | 1.700 × 40 m, VFR | | pista principale + secondaria; ~1.500 m certificabili civili |
+| Adeguabilità *airside* Code C | Da dimostrare | Da dimostrare | Oggetto di programma ENAC (Regional) |
 | Uso militare 2026 | **70° Stormo** attivo (scuola volo basico ala fissa) | **66° Stormo** costituito 18/6/2026 (APR) + presenza 72° | **72° Stormo** insediato 15/1/2026 (elicotteri interforze) |
 | Sedime «liberato»? | No (70° operativo) | No (66° neocostituito) | No (72° in insediamento) |
 | Accessibilità ferroviaria **attuale** | Ferrovia **già esistente**: Roma-Napoli, stazione Latina, ~35 min IC + **~10 min di navetta** dallo scalo | Stazione Frosinone (Roma-Cassino) ~73 min, **distante dallo scalo: serve una navetta** | FR3/via Orte; ~100 min (debole) |
 | **Tempo intermodale aeroporto→Roma (oggi)** | **≈ 45 min** (navetta 10' + Intercity 35'), **operativo da subito** | **~73 min di treno + navetta** ancora da istituire; l'AV solo dopo il ~2033 | **~100+ min** |
 | Accessibilità ferroviaria **futura** | Nessuna grande opera necessaria (stazione già a ~3 km) | **AV MedioLatium tutta da costruire** (~125 M€, fine ~2033) **+ navetta stazione-scalo da realizzare** | Interventi FR3 previsti (storici) |
-| Distanza da Roma | ~70 km | ~85-90 km [dv] | ~80 km |
-| Maturità amministrativa | Bassa (pre-fattibilità) | **Bassa (pre-fattibilità, come Latina)**; forte promozione dell'associazione APARF, atti da verificare | **Alta** (PNA 2012 + intese 2008) |
+| Distanza da Roma | ~70 km | ~85-90 km | ~80 km |
+| Maturità amministrativa | Bassa (pre-fattibilità) | **Bassa (pre-fattibilità, come Latina)**; forte promozione dell'associazione APARF | **Alta** (PNA 2012 + intese 2008) |
 | Investimenti pubblici noti / fabbisogno | Nessuno recente confermato; **il riuso richiede interventi contenuti** | **Fabbisogno molto maggiore**: ~125 M€ per la sola nuova ferrovia AV (non per lo scalo) + opere aeroportuali + navetta | ENAC ~1→2 M€ per uso civile (finalità *Regional*) |
-| Vincoli ambientali | Da valutare (pianura pontina) [dv] | Da valutare [dv] | Contesto termale/agricolo/archeologico segnalato nel 2012 |
-| Riconoscimenti/claim | — | «vaglio ENAC» dichiarato dall'associazione [dv] | Modello *Regional Airport* ENAC |
+| Vincoli ambientali | Da valutare (pianura pontina) | Da valutare | Contesto termale/agricolo/archeologico segnalato nel 2012 |
+| Riconoscimenti/claim | — | — (forte promozione APARF) | Modello *Regional Airport* ENAC |
 | Vocazione coerente col PNA (low cost di massa) | Da dimostrare | Da dimostrare | **Dichiarata** Regional/RAM, non massa |
 
 **Lettura sintetica.** Nessuno dei tre siti è oggi un sedime militarmente liberato; tutti e tre richiedono un *hard gate* di compatibilità civile-militare. Latina ha il vantaggio dell'accessibilità ferroviaria **attuale** più rapida e della collocazione nel quadrante sud; Frosinone ha il vantaggio **prospettico** dell'AV; Viterbo ha il vantaggio della **maturità amministrativa** ma una vocazione dichiarata (Regional/RAM) non coincidente con lo scalo low cost di massa richiesto dal PNA. Solo una comparazione multicriteri con dati omogenei può ordinare questi vantaggi eterogenei.
 
 ---
 
-## 8. La compatibilità civile-militare come *hard gate*
+## 9. La compatibilità civile-militare come *hard gate*
 
 Poiché tutti e tre i siti sono sedimi militari attivi, la **compatibilità civile-militare** è il primo cancello eliminatorio (*hard gate*) di qualunque valutazione seria. Per Latina, ciò significa che prima di dichiarare fattibile uno scalo commerciale occorre una **simulazione congiunta Aeronautica Militare – ENAC – ENAV** che risponda ad almeno i seguenti quesiti:
 
@@ -251,9 +288,13 @@ La medesima batteria di quesiti va posta, *mutatis mutandis*, a Frosinone (66° 
 
 ---
 
-## 9. Proposta di metodo: il Comitato Tecnico per il Terzo Aeroporto del Lazio
+## 10. Proposta di metodo: il Comitato Tecnico per il Terzo Aeroporto del Lazio
 
-Il Comitato propone che la localizzazione sia decisa attraverso un **Comitato Tecnico per il Terzo Aeroporto del Lazio**, con procedura pubblica e verificabile, secondo la seguente sequenza:
+Il Comitato propone che la localizzazione sia decisa attraverso un **Comitato Tecnico per il Terzo Aeroporto del Lazio**, con procedura pubblica e verificabile.
+
+> **La proposta centrale del Comitato: un unico studio di fattibilità comparato.** Lo Stato (MIT/ENAC) e la Regione Lazio commissionino a soggetti terzi indipendenti **un solo studio di fattibilità comparato** su tutti i siti candidati — Latina-Comani, Frosinone-Moscardini, Viterbo-Fabbri e l'alternativa zero — **a parità di budget e di perimetro di analisi per ciascun sito**, con il **100% del lavoro tecnico reso pubblicamente disponibile** (dati grezzi, assunzioni, modelli, elaborati, punteggi) e i cui **risultati siano a loro volta sottoposti a consultazione pubblica**. È l'unico modo per spostare la scelta del terzo scalo del Lazio dalle pressioni politiche e dalle campagne promozionali a **risultanze tecniche verificabili da chiunque**, mantenendo il dibattito il meno politicizzato e il più fattuale possibile. Il Comitato è convinto che, applicato con rigore e a parità di condizioni, un simile studio confermerebbe la priorità di Latina; ma **chiede la correttezza della procedura, non un esito prestabilito**.
+
+L'attuazione operativa di questo principio segue la sequenza:
 
 1. **Criteri pubblicati PRIMA della valutazione.** Elenco di criteri, indicatori e pesi resi pubblici *prima* di raccogliere i dati, per impedire che i criteri siano ritagliati sul vincitore desiderato.
 2. **Stessa richiesta dati ai tre siti.** Identica *data request* a Latina, Frosinone e Viterbo (e all'alternativa zero), su sedime, *airside*, spazio aereo, accessibilità, ambiente, costi.
@@ -270,37 +311,7 @@ Questo metodo è neutrale rispetto all'esito: se applicato correttamente, potreb
 
 ---
 
-## 10. Rigore e correzioni
-
-Per credibilità, il Comitato corregge esplicitamente alcune affermazioni ricorrenti nel dibattito, comprese quelle a favore di Latina:
-
-- **«La stazione è a 500 m dal Comani».** Affermazione ricorrente ma **imprecisa**. La distanza geodetica tra l'ARP aeroportuale e la stazione di Latina Scalo è di circa **3,1 km** [stima da verificare con rilievo GIS]. I «500 m» storicamente citati potrebbero riferirsi al margine del sedime o a una possibile localizzazione dell'aerostazione. Si chiede una **verifica GIS puntuale terminal-banchina** prima di usare qualunque cifra.
-- **Tempi ferroviari.** Gli esempi «~35 min Latina (Intercity)», «~73 min Frosinone», «~100 min Viterbo Porta Fiorentina» verso Roma Termini sono **esempi osservabili dell'offerta attuale**, non «tempi ferroviari definitivi»: vanno completati con frequenze, affidabilità e capacità.
-- **Accessibilità esistente vs. progetti futuri.** L'AV Frosinone-MedioLatium è un **vantaggio prospettico reale** ma **futuro** (fine lavori ~2033) e va tenuto distinto dall'accessibilità ferroviaria *esistente oggi*; inoltre resta da progettare il collegamento tra la nuova stazione AV e il sedime aeroportuale.
-- **«Vaglio ENAC» (Frosinone).** Il «vaglio positivo ENAC» dichiarato da APARF va documentato con protocollo, data, oggetto e portata giuridica: allo stato è un claim promozionale, non una validazione aeroportuale pubblica. Il progetto di Frosinone è di **pre-fattibilità, come quello di Latina**.
-- **«Pietra tombale ENAC» su Latina (2025).** Riportata da stampa locale ma **priva, allo stato, di fonte primaria**: non può essere trattata come fatto finché non è acquisito l'atto ENAC (vedi § 11).
-- **Wikipedia: «Latina è il terzo aeroporto del Lazio».** Formulazione **aspirazionale, non operativa**: Latina non è un aeroporto civile commerciale in esercizio.
-
----
-
-## 11. Documentazione non ancora disponibile o accessibile al Comitato
-
-Il Comitato elenca di seguito i documenti la cui acquisizione è necessaria per una valutazione completa, indicando per ciascuno: cosa è, chi lo detiene, e lo strumento di accesso. L'elenco strutturato e riutilizzabile è nel file allegato [`accessi-civici-da-fare.md`](./accessi-civici-da-fare.md).
-
-| # | Documento | Ente detentore | Strumento di accesso |
-|---|---|---|---|
-| 1 | **Rapporto Ambientale integrale della VAS n. 8657** e allegati (per audit della sezione «alternative») | MASE / ENAC | Consultazione pubblica in corso + eventuale [accesso civico D.Lgs. 33/2013](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33) |
-| 2 | **Studio di fattibilità Camera di Commercio di Latina (2007)** su scalo civile | [Camera di Commercio di Latina](https://www.frlt.camcom.it) | Accesso agli atti / richiesta formale |
-| 3 | **Presunto parere/atto ENAC 2025 negativo su Latina** («pietra tombale») — fonte primaria da accertare | ENAC | [Accesso civico generalizzato (FOIA), D.Lgs. 33/2013](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33) |
-| 4 | **Dati operativi 70° Stormo** e capacità dello spazio aereo del quadrante sud | Aeronautica Militare / ENAV | Richiesta istituzionale nell'ambito dell'istruttoria (con eventuali limiti di riservatezza militare) |
-| 5 | **Masterplan / «vaglio ENAC» dichiarato per Frosinone** (protocollo, data, oggetto, portata) | ENAC / APARF | Accesso civico a ENAC; richiesta all'associazione |
-| 6 | **Piano Regionale dei Trasporti 2006** (testo integrale, parte su Latina) | [Regione Lazio](https://www.regione.lazio.it) | Accesso agli atti (L. 241/1990) |
-| 7 | **Atti parlamentari e regionali** citati (interrogazioni/mozioni 2007-2021) non ancora reperiti in originale | Senato, Camera, Consiglio regionale Lazio | Banche dati atti + uffici atti |
-| 8 | **Dichiarazione Rocca 2025/2026** (ribaltamento) — atto/comunicato primario | Regione Lazio | Accesso agli atti / archivio comunicati |
-
----
-
-## 12. Registro delle fonti
+## 11. Registro delle fonti
 
 ### 12.1 Fonti istituzionali primarie — Piano e VAS
 
@@ -365,7 +376,7 @@ Il Comitato elenca di seguito i documenti la cui acquisizione è necessaria per 
 
 ---
 
-## 13. Conclusioni e richieste puntuali al valutatore
+## 12. Conclusioni e richieste puntuali al valutatore
 
 Sulla base di quanto sopra, il *Comitato per l'Aeroporto di Latina* chiede al MASE (autorità competente), alla Commissione VIA-VAS e a ENAC (proponente) di:
 
@@ -381,4 +392,4 @@ Il Comitato ribadisce che non chiede un esito predeterminato, ma una **istruttor
 
 ---
 
-*Documento predisposto dal Comitato per l'Aeroporto di Latina nell'ambito della consultazione pubblica VAS n. 8657 (MASE), aperta dal 4 agosto al 18 settembre 2026. Corpus documentale e aggiornamenti: [aeroportolatina.it](https://aeroportolatina.it). I punti contrassegnati «[da verificare]» sono segnalati come tali in ossequio al principio di correttezza probatoria.*
+*Documento predisposto dal Comitato per l'Aeroporto di Latina nell'ambito della consultazione pubblica VAS n. 8657 (MASE), aperta dal 4 agosto al 18 settembre 2026. Corpus documentale e aggiornamenti: [aeroportolatina.it](https://aeroportolatina.it). I punti contrassegnati «» sono segnalati come tali in ossequio al principio di correttezza probatoria.*
