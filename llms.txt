@@ -1,0 +1,22 @@
+# Comitato per l'Aeroporto di Latina
+
+> Iniziativa civica e non partitica per l'apertura ai voli civili dell'Aeroporto di Latina ("Enrico Comani") come **terzo scalo del Lazio**, dopo Fiumicino e Ciampino. Il Comitato cura un archivio documentale pubblico e ha presentato un'osservazione alla consultazione VAS del Piano Nazionale degli Aeroporti 2026-2035 (procedura n. 8657).
+
+## Punti chiave
+- L'Aeroporto di Latina (Comani) è un sedime militare **già esistente**, collegato a Roma Termini in **~35 minuti con l'Intercity** (stazione di Latina Scalo a ~5 min di navetta; tempo intermodale ~40 min).
+- Il **PNA 2026-2035** prevede un terzo aeroporto del Lazio prevalentemente low cost ma **non individua il sito**.
+- Il Comitato chiede una **comparazione tecnica trasparente** delle ragionevoli alternative (Latina, Frosinone, Viterbo, alternativa zero), come impone la Direttiva 2001/42/CE, e uno **studio di fattibilità comparato a pari budget, con il 100% del lavoro tecnico pubblico**.
+- Tesi: su intermodalità, riuso di sedime esistente e minor impatto ambientale, **Latina è oggi la scelta migliore**.
+
+## Documenti
+- [Osservazione alla consultazione — pagina di sintesi (terzo scalo del Lazio)](https://aeroportolatina.it/osservazione/)
+- [Osservazione alla consultazione VAS 8657 (dossier PDF)](https://aeroportolatina.it/docs/consultazione/Dossier-Terzo-Scalo-Lazio.pdf)
+- [Sito del Comitato](https://aeroportolatina.it/)
+- [English version](https://aeroportolatina.it/en/)
+- [Ricerca e Archivio Documentale (cronistoria, atti, stakeholder, rassegna stampa)](https://aeroportolatina.it/archivio.html)
+- [Progetto e dati aperti su GitHub](https://github.com/aeroportolatina/website)
+
+## Contatti
+- Email: comitato@aeroportolatina.it
+- Telegram: https://t.me/aeroportolatina
+- Facebook: https://www.facebook.com/groups/aeroportolatina

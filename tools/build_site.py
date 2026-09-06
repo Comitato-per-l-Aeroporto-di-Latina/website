@@ -133,6 +133,16 @@ def page(title: str, body: str) -> str:
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)} — Ricerca e Archivio · Comitato per l'Aeroporto di Latina</title>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="description" content="Ricerca e Archivio Documentale del Comitato per l'Aeroporto di Latina: cronistoria, atti istituzionali, portatori di interesse e rassegna stampa sul terzo scalo del Lazio.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0b3d67">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{e(title)} — Comitato per l'Aeroporto di Latina">
+<meta property="og:description" content="Archivio documentale aperto sul terzo scalo del Lazio (Aeroporto di Latina).">
+<meta property="og:image" content="https://aeroportolatina.it/brand/social/facebook-group-cover-1640x856.png">
+<meta property="og:site_name" content="Comitato per l'Aeroporto di Latina">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://aeroportolatina.it/brand/social/facebook-group-cover-1640x856.png">
 <style>{CSS}</style></head>
 <body><header class="site"><div class="wrap">
 <div class="kicker"><a href="index.html">Comitato per l'Aeroporto di Latina</a></div>
@@ -321,9 +331,11 @@ BASE_URL = "https://aeroportolatina.it"
 
 def build_sitemap(lastmod):
     """sitemap.xml con le pagine HTML e i PDF archiviati (rigenerata a ogni build)."""
-    pages = [("", "1.0"), ("archivio.html", "0.9"), ("cronistoria.html", "0.9"),
-             ("atti.html", "0.9"), ("rassegna-stampa.html", "0.8"),
-             ("stakeholder.html", "0.7"), ("da-reperire.html", "0.6")]
+    pages = [("", "1.0"), ("osservazione/", "0.9"), ("en/", "0.8"),
+             ("en/observation/", "0.7"), ("archivio.html", "0.9"),
+             ("cronistoria.html", "0.9"), ("atti.html", "0.9"),
+             ("rassegna-stampa.html", "0.8"), ("stakeholder.html", "0.7"),
+             ("da-reperire.html", "0.6")]
     entries = [(f"{BASE_URL}/{p}", lastmod, prio) for p, prio in pages]
     if MANIFEST.exists():
         m = json.loads(MANIFEST.read_text(encoding="utf-8"))
